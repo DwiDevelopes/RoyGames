@@ -1,0 +1,20 @@
+{
+  "name": "roygames",
+  "version": "2.0.0",
+  "description": "A simple Electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.adventuregames.roygames",
+    "win": {
+      "icon": "icon.ico"
+    }
+  }
+}
